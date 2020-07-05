@@ -1,0 +1,59 @@
+{
+  "name": "pen",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "github:react-native-community/async-storage",
+    "@react-native-community/netinfo": "^4.6.1",
+    "axios": "^0.19.0",
+    "install": "^0.13.0",
+    "native-base": "^2.13.8",
+    "npm": "^6.13.1",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-elements": "^1.2.7",
+    "react-native-gesture-handler": "^1.5.0",
+    "react-native-html-to-pdf": "^0.8.0",
+    "react-native-image-picker": "^1.1.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-modal": "^11.5.3",
+    "react-native-modalbox": "^2.0.0",
+    "react-native-print": "^0.6.0",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-restart": "0.0.13",
+    "react-native-screens": "^2.0.0-alpha.11",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-simple-toast": "^1.0.0",
+    "react-native-svg": "^9.13.6",
+    "react-native-svg-uri": "^1.2.3",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.2",
+    "@babel/runtime": "7.7.2",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.6.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.3",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "npm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}
