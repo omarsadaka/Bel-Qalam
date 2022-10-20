@@ -27,7 +27,7 @@
     "react-native-modal": "^11.5.3",
     "react-native-modalbox": "^2.0.0",
     "react-native-print": "^0.6.0",
-    "react-native-reanimated": "^1.4.0",
+    "react-native-reanimated": "^2.10.0",
     "react-native-restart": "0.0.13",
     "react-native-screens": "^2.0.0-alpha.11",
     "react-native-simple-radio-button": "^2.7.4",
